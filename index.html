@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>לוח שנה חודשי</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hebcal/1.4.0/hebcal.min.js"></script>
+  </head>
+  <body>
+    <div class="controls">
+      <button id="prev-month">חודש קודם</button>
+      <h2 id="month-year"></h2>
+      <button id="next-month">חודש הבא</button>
+      <button id="toggle-view">תצוגה שבועית</button>
+      <button id="export-ical">ייצוא ל-iCal</button>
+      <button id="sync-google">סנכרון עם Google Calendar</button>
+    </div>
+    <div class="calendar" id="calendar"></div>
+    <script src="calendar.js"></script>
+  </body>
+</html>
